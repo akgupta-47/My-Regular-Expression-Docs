@@ -89,7 +89,7 @@ Use () also to define range of two or more options\
 -------------------------------------------------
 **Other way to write REGeX**\
 in javaScript we can also use\
-`let regEx = new RegExp(/karan/, 'g', 'i');\`
+`let regEx = new RegExp(/karan/, 'g', 'i');` \
 new RegExp(expression, flags)
 
 -------------------------------------------------

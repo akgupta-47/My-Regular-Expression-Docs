@@ -40,23 +40,23 @@ a character set will look for any character in the set for match\
 
 -------------------------------------------------
 **Meta characters**\
-\d "digits [0-9]"\
-\w "any word a-z A-Z 0-9 underscores"\
-\s "white space"\
-\t "tabs space "\
+`\d` "digits [0-9]"\
+`\w` "any word a-z A-Z 0-9 underscores"\
+`\s` "white space"\
+`\t` "tabs space "\
 Examples:\
 `/\d\s\w/` "it will match '1 f'"\
 `/\d{3}\s\w{5}/` "matches '123 david' "
 
 -------------------------------------------------
 **Special characters**\
-+ "one or more quantifier"\
-\ "escape character"\
-[] "define characterset"\
-[^] "negate symbol of character set"\
-? "0 or one quantifier(makes precedin char optional)"\
-. "matches any char whatsoever (excluding newline char)"\
-* "zero or more quantifier"
+`+` "one or more quantifier"\
+`\` "escape character"\
+`[]` "define characterset"\
+`[^]` "negate symbol of character set"\
+`?` "0 or one quantifier(makes precedin char optional)"\
+`.` "matches any char whatsoever (excluding newline char)"\
+`*` "zero or more quantifier"
 
 Examples:\
 `/adios?/` "it will match 'adios' and 'adio' because ? makes presence of 's' optional"\

@@ -22,11 +22,11 @@ exp: `/basketball/`
 
 **Define characterset**\
 a character set will look for any character in the set for match\
-/[abc]asketball/ \
+`/[abc]asketball/ \`
 "now it will detect asketball basketball and casketball" \
 "but it only considers one at a time like [ab]asketball will only detect basketball not abasketball in a string"
 
-/[^abc]asketball/ "now this excludes every such word with a b or c at start"
+`/[^abc]asketball/` "now this excludes every such word with a b or c at start"
 
 -------------------------------------------------
 **Define ranges**\
